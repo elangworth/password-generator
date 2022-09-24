@@ -1,3 +1,6 @@
+#Description
+This project entailed creating prompts for a user asking for password length and what types of characters to include in the password. I then had to create functions to generate random characters using Math.floor and Math.random. I then used a loop to append the characters to the password.
+
 #User Story
 
 AS AN employee with access to sensitive data
