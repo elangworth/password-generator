@@ -15,22 +15,23 @@ function generatePassword() {
   if (!resultPasswordLength || isNaN(resultPasswordLength) || (parseInt(resultPasswordLength) < 8) || (parseInt(resultPasswordLength) > 128)) {
     return alert('Please enter a numeric value between 8 and 128');
   }
-  const resultUpper = prompt(askIncludeUpper, 'Y/N');
+  let resultUpper = prompt(askIncludeUpper, 'Y/N');
   resultUpper = resultUpper.toUpperCase();
     if (!resultUpper || (resultUpper !== 'Y' && resultUpper !== 'N')) {
       return alert(alertMessage);
     }
-  const resultLower = prompt(askIncludeLower, 'Y/N');
+    console.log(resultUpper); 
+  let resultLower = prompt(askIncludeLower, 'Y/N');
   resultLower = resultLower.toUpperCase();
     if (!resultLower || (resultLower !== 'Y' && resultLower !== 'N')) {
       return alert(alertMessage);
     }
-  const resultNumbers = prompt(askIncludeNumbers, 'Y/N');
+  let resultNumbers = prompt(askIncludeNumbers, 'Y/N');
   resultNumbers = resultNumbers.toUpperCase();
     if (!resultNumbers || (resultNumbers !== 'Y' && resultNumbers !== 'N')) {
       return alert(alertMessage);
     }
-  const resultSymbols = prompt(askIncludeSymbols, 'Y/N');
+  let resultSymbols = prompt(askIncludeSymbols, 'Y/N');
   resultSymbols = resultSymbols.toUpperCase();
   if (!resultSymbols || (resultSymbols !== 'Y' && resultSymbols !== 'N')) {
     return alert(alertMessage);
