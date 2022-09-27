@@ -1,3 +1,6 @@
+#Description
+This project entailed creating prompts for a user asking for password length and what types of characters to include in the password. I then had to create functions to generate random characters using Math.floor and Math.random. I then used a loop to append the characters to the password.
+
 #User Story
 
 AS AN employee with access to sensitive data
@@ -23,3 +26,6 @@ THEN the password is either displayed in an alert or written to the page
 
 #Mock Up
 <img width="737" alt="Screen Shot 2022-09-16 at 9 17 58 PM" src="https://user-images.githubusercontent.com/32778860/190840191-9eef93aa-b362-4720-8876-e998cc7b239d.png">
+
+#Link to live project
+https://elangworth.github.io/password-generator/
