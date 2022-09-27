@@ -26,3 +26,6 @@ THEN the password is either displayed in an alert or written to the page
 
 #Mock Up
 <img width="737" alt="Screen Shot 2022-09-16 at 9 17 58 PM" src="https://user-images.githubusercontent.com/32778860/190840191-9eef93aa-b362-4720-8876-e998cc7b239d.png">
+
+#Link to live project
+https://elangworth.github.io/password-generator/
